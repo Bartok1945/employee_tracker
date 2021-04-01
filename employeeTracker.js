@@ -288,13 +288,6 @@ const viewRoles = async () => {
         selectMenu();
       });
 };
-// const viewRoles = async () => {
-//   let query = "SELECT id, title AS Title from role";
-//   const allRoles = await getResults(query);
-//   console.log("\n");
-//   console.table(allRoles);
-//   selectMenu();
-// };
 
 //View employees
 const viewEmployees = async () => {
@@ -312,31 +305,6 @@ const viewEmployees = async () => {
   console.table(allEmployees);
   selectMenu();
 };
-
-//Update employee roles
-
-  
-
-  
-  // const viewRoles = async () => {
-  //   let query = "SELECT id, title AS Title from role";
-  //   const allRoles = await getResults(query);
-  //   console.log("\n");
-  //   console.table(allRoles);
-  //   selectMenu();
-  // };
-  
-  // const viewDepartment = async () => {
-  //   let query = "SELECT id, name AS Name from department";
-  //   const allDepts = await getResults(query);
-  //   console.log("\n");
-  //   console.table(allDepts);
-  //   selectMenu();
-  // };
-  
-  
-  
-  
  
   
   const updateEmployees = async () => {
